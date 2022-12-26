@@ -1,0 +1,2 @@
+# Setup file template to upload data to MongoDB Atlas
+mongoimport --uri "mongodb://xflix-backend:xflix-backend@ac-tcn9q7o-shard-00-00.8u1gdmx.mongodb.net:27017,ac-tcn9q7o-shard-00-01.8u1gdmx.mongodb.net:27017,ac-tcn9q7o-shard-00-02.8u1gdmx.mongodb.net:27017/xflix?ssl=true&replicaSet=atlas-135q3o-shard-0&authSource=admin&retryWrites=true&w=majority" --drop --collection videos --file data/xflix_data.json
